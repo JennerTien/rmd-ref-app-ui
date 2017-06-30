@@ -2,7 +2,7 @@ var auth = require('../helpers/auth');
 var proxy = require('../helpers/proxy');
 
 var config = {
-  /**
+  /**  
    * --------- ADD YOUR UAA CONFIGURATION HERE ---------
    * If you have run the installRefApp.py script, then you can copy values from the manifest.yml into this file for local development.
    * This uaa helper object simulates NGINX uaa integration using Grunt allowing secure cloudfoundry service integration in local development without deploying your application to cloudfoundry.
